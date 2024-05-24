@@ -12,6 +12,21 @@ Tabela 1 – Tabela de Requisitos funcionais
  ## Diagrama do sistema
 
  ## Prototipação das telas
+ Tela 1 - Inicio
+ ![inicio](https://github.com/ngorijanuario/centro_de_servicos/assets/68328526/431c4859-613f-4372-9f44-c7c27c613a0b)
+
+Tela 2 - Detalhes
+ ![sobre](https://github.com/ngorijanuario/centro_de_servicos/assets/68328526/8755a9c0-06fa-4e5b-9eea-6d2d9d6ce39b)
+
+Tela 3 - Carrinho
+![Carrinho](https://github.com/ngorijanuario/centro_de_servicos/assets/68328526/83f42772-718c-44a3-9b64-4f2e024f6b3e)
+
+Tela 4 - Detalhes do Serviço
+![detalhes](https://github.com/ngorijanuario/centro_de_servicos/assets/68328526/ee9e6045-5d6a-4164-9186-49a822c062ef)
+
+Tela 5 - Carrinho
+![cartao](https://github.com/ngorijanuario/centro_de_servicos/assets/68328526/937f6b75-0f17-48cb-b74d-08aede946a3d)
+
 
  ## Desenvolvimento
 
