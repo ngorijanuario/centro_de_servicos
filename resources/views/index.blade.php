@@ -3,7 +3,7 @@
 @section('title', 'CS | Inicio')
 
 @section('content')
-<!-- Populer Product Strat -->
+{{-- Estrutura da pagina index --}}
 <section class="populerproduct">
             <div class="container">
                 <div class="row">

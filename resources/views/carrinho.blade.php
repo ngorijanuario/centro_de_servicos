@@ -3,6 +3,7 @@
 @section('title', 'CS | Carrinho')
 
 @section('content')
+{{-- Estrutura do carrinho --}}
 <section class="cart-area">
         <div class="container">
             <div class="row">

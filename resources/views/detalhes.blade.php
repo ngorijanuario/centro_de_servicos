@@ -3,6 +3,7 @@
 @section('title', 'CS | Detalhes')
 
 @section('content')
+{{-- Estrutura da pagina detalhes --}}
 <section class="product">
             <div class="container">
                 <div class="row">

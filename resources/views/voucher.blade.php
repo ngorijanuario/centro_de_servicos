@@ -3,7 +3,7 @@
 @section('title', 'CS | Voucher')
 
 @section('content')
-
+{{-- Estrutura do cartão --}}
 <section class="banner-area">
             <div class="container">
                 <div class="row align-items-center">

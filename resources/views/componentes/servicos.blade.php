@@ -1,3 +1,4 @@
+{{-- Condição para verificar se há uma pesquisa --}}
 @if($search)
 <div class="container">
      <div class="col-sm-12">
@@ -9,6 +10,7 @@
 @else
 
 @endif
+{{-- Estrutura de repetição paara buscar todos os dados dos serviços na base de dados. --}}
 @foreach($servicos as $itens)
 <div class="col-md-4 col-sm-6">
                         <div class="product-item">
@@ -42,7 +44,7 @@
                             </div>
                             <div class="product-item-info">
                                 <a href="/detalhes/{{ $itens -> id }}">{{ $itens -> NomeDoServiço }}</a>
-                                <span>{{ $itens -> Valor }}</span>
+                                <span>{{ $itens -> Valor }} Kz</span>
                             </div>
                         </div>
                     </div>

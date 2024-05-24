@@ -3,7 +3,7 @@
 @section('title', 'CS | Sobre')
 
 @section('content')
-
+{{-- Estrutura da tela sobre --}}
 <section class="about-area">
             <div class="container">
                 <div class="about-area-content">
