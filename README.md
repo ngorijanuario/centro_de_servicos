@@ -3,6 +3,9 @@
 
  ## Descrição do Mini-mundo
 Solução Perfeita para quem deseja expor seus produtos que não podem ser comprados online, o Centro de Serviços é o lugar ideal para encontrares todo tipo de serviços.
+Utilizador_Visitante: Visitante do site, que acede para ver, procurar e pagar serviços dentro da plataforma. Este utilizador é temporário pois para realizar um pagamento deixará de ser visitante e passará a ser também expositor.
+
+Utilizador_Expositor: Este é o utilizador que para alem de ver, procurar e pagar serviços dentro da plataforma, também pode expor os seus produtos e pagar serviços com o seu voucher.
  ## Tabela de Requisitos
 Tabela 1 – Tabela de Requisitos funcionais
 |Id|Descrição|Prioridade|Relacionado|
