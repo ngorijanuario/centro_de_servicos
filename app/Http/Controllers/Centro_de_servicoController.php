@@ -37,6 +37,43 @@ class Centro_de_servicoController extends Controller
         $servicos = $user->servicos;
         return view('dashboard',['servicos'=>$servicos]);
     }
+
+    public function adicionar(){
+        return view('servicos.adicionar');
+    }
+
+    public function store(Request $request){
+        $servico = new Servico;
+
+        $servico->NomeDoServiço = $request->nomeDoservico;
+        $servico->Descricao = $request->descricao;
+        $servico->Valor = $request->valor;
+        $servico->contecto = $request->contacto;
+
+        // Imagem Upload
+        if ($request->hasFile('imagem') && $request->file('imagem')->isvalid()){
+
+            $requestImagem = $request->imagem;
+
+            $extencion = $requestImagem->extension();
+
+            $nomeDaImagem = md5($requestImagem->getClientOriginalName().strtotime("now")).".".$extencion;
+
+            $requestImagem->move(public_path('/imgens/servicos'), $nomeDaImagem);
+
+            $servico->imagem = $nomeDaImagem;
+        }
+
+        
+
+        $user = auth()->user();
+        $servico->user_id = $user->id;
+
+        $servico->save();
+
+        return redirect('/');
+
+    }
     
     
 }

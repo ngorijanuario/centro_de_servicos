@@ -9,3 +9,5 @@ Route::get('/carrinho',[Centro_de_servicoController::class,'carrinho']);
 Route::get('/voucher',[Centro_de_servicoController::class,'voucher']);
 Route::get('/detalhes/{id}',[Centro_de_servicoController::class,'detalhes']);
 Route::get('/dashboard',[Centro_de_servicoController::class,'dashboard'])->middleware('auth');
+Route::get('/servicos/adicionar',[Centro_de_servicoController::class,'adicionar'])->middleware('auth');
+Route::post('/servicos',[Centro_de_servicoController::class,'store']);

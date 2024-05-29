@@ -7,9 +7,10 @@
 <div class="col-md-10 offset-md-1 dashboard-title-container">
     <h2>Meus Serviços</h2>
     @if(count($servicos) > 0)
-     
+    <p>Há um novo serviço que precisa de ser adicionado?</p>
+    <a href="/servicos/adicionar/">clique aqui para adicionar.</a>
     @else
-    <p>Você ainda não tem serviços cadastrados</p>
+    <p>Você ainda não tem serviços cadastrados <a href="/servicos/adicionar/">Criar um serviço</a></p>
     @endif
     <table class="table">
     

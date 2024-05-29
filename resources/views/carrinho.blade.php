@@ -70,7 +70,7 @@
 
                         <div class="item">
                             <div class="image">
-                                <img src="dist/images/jornada-trabalho-empregada-domestica-direitos.jpg.webp">
+                                <img src="dist/images/quanto-ganha-advogado.png">
                             </div>
                             <div class="name">
                                 <div class="name-text">

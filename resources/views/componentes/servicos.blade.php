@@ -15,7 +15,7 @@
 <div class="col-md-4 col-sm-6">
                         <div class="product-item">
                             <div class="product-item-image">
-                                <a href="/detalhes/{{ $itens -> id }}"><img src="dist/images/{{ $itens -> imgem }}" style="width: 600px; height: 250px;" alt="{{ $itens -> NomeDoServiço }}"
+                                <a href="/detalhes/{{ $itens -> id }}"><img src="/imgens/servicos/{{ $itens->imagem }}" style="width: 600px; height: 250px;" alt="{{ $itens -> NomeDoServiço }}"
                                         class="img-fluid"></a>
                                 <div class="cart-icon">
                                     <a href="/detalhes/{{ $itens -> id }}">
