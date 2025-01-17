@@ -16,7 +16,7 @@ class Centro_de_servicoController extends Controller
             $servicos = Servico::all();
         }
         
-        return view('index',['servicos'=> $servicos, 'search'=>$search]);
+        return view('index',['servicos'=> $servicos, 'search'=> $search]);
     }
     public function sobre(){
         return view('sobre');
